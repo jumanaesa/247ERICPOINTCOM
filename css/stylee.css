@@ -1,0 +1,150 @@
+body{
+  font-size: 30px;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 2px;
+}
+form{
+  margin-top: 40px;
+    
+
+}
+header .user img {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid var(--color);
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+input{
+    display: block;
+    height: 43px;
+    width: 50%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    border: 1px solid #9d9e9b;
+    float: center;
+     margin: auto;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #4b4e4d;
+    padding-left: 10px;
+}
+button{
+  width: 30%;
+ margin: auto;
+ float: center;
+  margin-top: 35px;
+  padding: 12px;
+  background: #894ca5;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+button:hover{
+	background: #FDDA0D;
+}
+
+
+
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+@media
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+
+.forget{
+    color:#fff;
+    margin-bottom:13px;
+
+    
+    
+}
+
+p.error {
+    color: white;
+    font-family: Arial;
+    background: yellowgreen;
+    display: inline-block;
+    padding: 2px 10px;
+}
+p.error {
+    background: orangered;
+}
+
+.sign-in:hover{
+    background-color:#FDDA0D;
+    
+}
+
+
+.sign-up:hover{
+        background-color:#FDDA0D;
+    
+}
+
+
+.sign-up{
+    margin-top:30px;
+    color:#ccc;
+}
+.sign-up a{
+    color:#fff;
+    text-decoration:none;
+    transition:all 0.5s;
+}
+.sign-up a:hover{
+    color:#f4d5a8;
+}
+@media
